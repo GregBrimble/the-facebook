@@ -1,6 +1,15 @@
 {
 	"name": "the-facebook",
 	"description": "A brand new social network!",
+	"cloudflare": {
+		"interchangeable_secrets": true,
+		"bindings": {
+			"UGC": {
+				"description": "This R2 bucket will be used to store user-generated content such as profile pictures. Read more [here](https://github.com/GregBrimble/the-facebook#r2-bucket)."
+			},
+			"OPENAI_API_KEY": "Grab an API key from [OpenAI](https://openai.com/):\n![Generate an API token in OpenAI](https://github.com/user-attachments/assets/e58280fc-5dda-4213-b512-b00cd4ff73a2)"
+		}
+	},
 	"dependencies": {
 		"next": "14.2.26",
 		"react": "18.3.1",

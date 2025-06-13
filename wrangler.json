@@ -8,5 +8,18 @@
 	"assets": {
 		"directory": ".open-next/assets",
 		"binding": "ASSETS"
-	}
+	},
+	"r2_buckets": [
+		{
+			"binding": "UGC",
+			"bucket_name": "the-facebooks-ugc"
+		}
+	],
+	"secrets_store_secrets": [
+		{
+			"binding": "OPENAI_API_KEY",
+			"secret_name": "openai-api-key",
+			"store_id": "d39f800940ba4b3088425f3554cd0cc8"
+		}
+	]
 }
