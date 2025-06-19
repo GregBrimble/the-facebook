@@ -21,5 +21,8 @@
 			"secret_name": "openai-api-key",
 			"store_id": "d39f800940ba4b3088425f3554cd0cc8"
 		}
-	]
+	],
+	"vars": {
+		"API_HOST": "https://example.com/"
+	}
 }
