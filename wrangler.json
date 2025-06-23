@@ -24,6 +24,6 @@
 	],
 	"vars": {
 		"API_HOST": "https://example.com/",
-		"ANOTHER_VAR": "true"
+		"ANOTHER_VAR": "true/false"
 	}
 }
