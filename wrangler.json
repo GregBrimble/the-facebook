@@ -23,6 +23,7 @@
 		}
 	],
 	"vars": {
-		"API_HOST": "https://example.com/"
+		"API_HOST": "https://example.com/",
+		"ANOTHER_VAR": "true"
 	}
 }
