@@ -1,14 +1,9 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "the-facebook",
-	"main": ".open-next/worker.js",
+	"main": "./worker/index.ts",
 	"compatibility_date": "2025-04-01",
 	"compatibility_flags": ["nodejs_compat"],
-	"minify": true,
-	"assets": {
-		"directory": ".open-next/assets",
-		"binding": "ASSETS"
-	},
 	"secrets_store_secrets": [
 		{
 			"binding": "OPENAI_API_KEY",
