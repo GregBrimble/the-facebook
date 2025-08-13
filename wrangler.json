@@ -4,6 +4,12 @@
 	"main": "./worker/index.ts",
 	"compatibility_date": "2025-04-01",
 	"compatibility_flags": ["nodejs_compat"],
+	"r2_buckets": [
+		{
+			"binding": "UGC",
+			"bucket_name": "the-facebooks-ugc"
+		}
+	],
 	"secrets_store_secrets": [
 		{
 			"binding": "OPENAI_API_KEY",
